@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/IT Programmer/Documents/GitHub/Archival-Companion/ArchiveCompanion/Pages/UserProfile/UserArchives.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclByb2ZpbGVcVXNlckFyY2hpdmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/IT Programmer/Documents/GitHub/Archival-Companion/ArchiveCompanion/Pages/UserProfile/UserLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclByb2ZpbGVcVXNlckxvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/IT Programmer/Documents/GitHub/Archival-Companion/ArchiveCompanion/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
