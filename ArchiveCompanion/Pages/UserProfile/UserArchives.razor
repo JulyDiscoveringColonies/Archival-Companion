@@ -2,8 +2,32 @@
 
 @* add search bar  *@
 @* current user *@
+<MudPaper Class='d-flex flex-column align-center justify-center' Height='100vh' Width='100%' Square Elevation='0'>
+    <div class="d-flex">
+        <MudTextField @bind-Value='searchString' Adornment='Adornment.Start' AdornmentIcon='@Icons.Material.Filled.Search' Variant='Variant.Outlined'></MudTextField> <MudButton OnClick='ResetSearchString' Color='Color.Secondary' Class='px-2'>Reset</MudButton>
+    </div>
+    <MudText Typo='Typo.caption'>@searchString</MudText>
+</MudPaper>
 
 
-@code{
+@code
+{
+    
+    private string searchString = string.Empty;
+    private bool isDisplay;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(1);
+    }
+
+    private void DisplaySearchString()
+    {
+        isDisplay = true;
+    }
+    private void ResetSearchString()
+    {
+        searchString = string.Empty;
+    }
 
 }
